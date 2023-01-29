@@ -1,4 +1,4 @@
-import java.math.BigInteger;
+import java.math.BigInteger;//untuk mengimport big integer
 import java.util.Scanner;
 
 public class BigNumber {
@@ -7,11 +7,11 @@ public class BigNumber {
   
 		Scanner in = new Scanner(System.in);
 		
-		BigInteger A = in.nextBigInteger();
-		BigInteger B = in.nextBigInteger();
+		BigInteger A = in.nextBigInteger();//scanner untuk big integer
+		BigInteger B = in.nextBigInteger();//scanner untuk big integer
 		
-		BigInteger C = A.add(B);
-		BigInteger D = A.multiply(B);
+		BigInteger C = A.add(B);//penjumlahan jika menggunakan big integer
+		BigInteger D = A.multiply(B);//perkalian jika menggunakan big integer
 		
 		in.close();
 		System.out.println(C);
