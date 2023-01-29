@@ -23,12 +23,12 @@ public class Array {
 	//Three Dimensional Array
 	int[][][] threeDimensionalArray = {twoDimensionalArray1, twoDimensionalArray2, twoDimensionalArray3};
 	
-	//variabel array 2 dimensi m untuk menampung threeDimensionalArray
+	//variabel array 2 dimensi m untuk menampung variabel threeDimensionalArray
 	 for (int[][] m: threeDimensionalArray) { 
 	        System.out.print("{");
-	        for (int[] a: m) {//variabel a untuk menampung m
+	        for (int[] a: m) {//variabel a untuk menampung variabel m
 	          System.out.print("{");
-	          for (int n: a) { //variabe
+	          for (int n: a) { //variabe n untuk menampung variabel a 
 	            System.out.print(n + " "); 
 	          }
 	          System.out.print("}"); 
