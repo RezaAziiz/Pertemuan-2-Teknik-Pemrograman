@@ -8,8 +8,8 @@ public class BukaTutupJalan {
 		
 		String str = Keyboard.nextLine();
 		
-		String str2 = str.replaceAll(" ","");
-		Long number = Long.parseLong(str2);
+		String str2 = str.replaceAll(" ","");//untuk mereplace spasi menjadi tidak ada spasi
+		Long number = Long.parseLong(str2);//untuk mengconvert nilai string menjadi long
 		
 		
 		if((number-999999)%5==0){
