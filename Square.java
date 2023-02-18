@@ -1,0 +1,24 @@
+
+public class Square extends Rectangle {
+		
+		
+		public Square(double side) {
+			super(side,side);
+		}
+		public Square(String color, Boolean filled, double side) {
+			super(color,filled, side, side);
+		}
+		@Override
+		public void setLength(double length) {
+			super.setLength(length);
+			super.setWidth(length);
+		}
+		public void setWidth(double width) {
+			super.setWidth(width);
+			super.setLength(width);
+		}
+		@Override
+		 public String toString() {
+			 return "A square with side " + super.getWidth() + ", which is a subclass of " + super.toString();
+			 }
+}
